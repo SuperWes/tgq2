@@ -75,6 +75,15 @@
             }
           }
         },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://thegamersquarter.com",
+            "dir": "dist/tgq2",
+            "cname": "https://thegamersquarter.com",
+            "deleteOutputPath": true
+          }
+        },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
@@ -124,6 +133,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "tgq2"
 }

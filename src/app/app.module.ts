@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { FileService } from './file.service';
 import { HttpClientModule } from '@angular/common/http';
+import { IssueListComponent } from './issue-list/issue-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    IssueListComponent
   ],
   imports: [
     BrowserModule,

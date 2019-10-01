@@ -1,0 +1,48 @@
+<table class="boxy">
+    <tbody>
+        <tr>
+            <td>
+                <h1>GAMER'S QUARTER FORUMS AREN'T DEAD</h1>
+                <p>They just currently live <a href="http://mirrors.glorioustrainwrecks.com/gamersquarter/">here</a>
+                    and nobody's posted on them since 2011.</p>
+                <p>Signups are turned off because the spam problem is literally what
+                    killed the forums. So I hope you remember your password!</p>
+                <p>-- Much love, ApM</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table *ngFor="let issue of issues; index as issueId" class="boxy">
+    <tbody>
+        <tr>
+            <td>
+
+                <h1><a class="headerlink" [href]="issue.downloadLink">
+                        {{issue.headerText}}</a></h1>
+
+                <a [href]="issue.downloadLink"><img [src]="issue.coverImage" align="right"></a>
+                <span [innerHTML]="issue.description"></span>
+                <br>
+                <br>
+                <ul>
+                    <ng-container *ngFor='let article of issue.articles'>
+                        <b>{{article.title}}</b> - {{article.author}}
+                        <br>
+                        <ng-container *ngIf='article.games'>
+                            <ng-container *ngFor='let game of article.games; last as isLast'>
+                                {{game.name}}<ng-container *ngIf='game.system'> - </ng-container>{{game.system}}
+                                <ng-container *ngIf='!isLast'>;</ng-container>
+                            </ng-container>
+                        </ng-container>
+                        <ng-container *ngIf='article.topic'>{{article.topic}}</ng-container>
+                        <ng-container *ngIf='article.type'> - {{article.type}}</ng-container>
+                        <br>
+                    </ng-container>
+                </ul>
+                <br>
+                Available <b>NOW</b>!
+            </td>
+        </tr>
+    </tbody>
+</table>
