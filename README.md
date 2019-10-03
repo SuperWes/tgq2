@@ -9,8 +9,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Prod Deployment
 
 To deploy to prod run:
-`ng build --prod --base-href "https://thegamersquarter.com" --deleteOutputPath true`
-`ngh --dir dist/tgq2 --cname thegamersquarter.com`
+`npm ci`
+`ng deploy`
 
 ## Code scaffolding
 
