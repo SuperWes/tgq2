@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "deleteOutputPath": true,
             "outputPath": "dist/tgq2",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -80,8 +81,7 @@
           "options": {
             "baseHref": "https://thegamersquarter.com",
             "dir": "dist/tgq2",
-            "cname": "https://thegamersquarter.com",
-            "deleteOutputPath": true
+            "cname": "https://thegamersquarter.com"
           }
         },
         "extract-i18n": {

@@ -18,8 +18,10 @@
         <tr>
             <td>
 
-                <h1><a class="headerlink" [href]="issue.downloadLink">
-                        {{issue.headerText}}</a></h1>
+                <h1><a *ngIf='issue.downloadLink' class="headerlink" [href]="issue.downloadLink">
+                        {{issue.headerText}}</a>
+                    <span *ngIf='!issue.downloadLink' class="headerlink">
+                        {{issue.headerText}}</span></h1>
 
                 <a [href]="issue.downloadLink"><img [src]="issue.coverImage" align="right"></a>
                 <span [innerHTML]="issue.description"></span>
