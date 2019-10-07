@@ -1,0 +1,196 @@
+
+body
+{
+//http://www.easyrgb.com/
+//Issue #1
+//orange=ff8800
+//light orange=FFD89C
+//Issue #0
+//dark blue=60A8CE
+//light blue=D8E2C8
+//Issue #2
+//dark green=A3BA36
+//light green=E3E9A9
+//Issue #3
+//dark purple=928EB1
+//light purple=DAD7EA
+//Issue #4
+//Forest Green=4A6140
+//Pale Blue=BCC9B6
+//Issue #5
+//Poop Orange=b9621d
+//light brown=e8d998
+//Issue #6
+//wine red=940137
+//gray green=A8C797
+//Issue #7
+//red=B31A1E
+//yellow=ffe087
+//Issue #8
+//Dark Blue=0044bd
+//Light Blue=5db4df
+	background-attachment: fixed;
+	margin: 0px;
+	background-color: #5db4df;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-arrow-color: #000000;
+	scrollbar-darkshadow-color: #5db4df;
+	scrollbar-face-color: #5db4df;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #5db4df;
+	scrollbar-track-color: #ffffff;
+}
+h1
+{
+	font:normal;
+	color:0044bd;
+	text-align: left;
+	font-weight: bold;
+	font-size: 12pt;
+	text-decoration:none;
+}
+
+a:link
+{
+	text-decoration: underline;
+	border-style:none;
+	border-width: 0px;
+	color: #000;
+}
+
+a:visited
+{
+	text-decoration: underline;
+	border-style:none;
+	border-width: 0px;
+	color: #000;
+}
+
+a:active
+{
+	text-decoration: underline;
+	border-style:none;
+	border-width: 0px;
+	color: #0044bd;
+}
+a:hover
+{
+	text-decoration: underline;
+	border-style:none;
+	border-width: 0px;
+	color: 0044bd;
+}
+
+font.title, p.title, a.title
+{
+	font:normal;
+
+	color:white;//Banner Color
+	color:#0044bd;
+	text-align: right;
+	vertical-align: bottom;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+font.bar
+{
+	color:#0044bd;
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+a.title:link {
+	color:#0044bd;
+	text-decoration:none;
+}
+a.title:visited {
+	color:#0044bd;
+	text-decoration:none;
+}
+a.title:hover {
+	color:#0044bd;
+	text-decoration:underline;
+}
+a.title:active {
+	color:#0044bd;
+	text-decoration:underline;
+}
+
+
+font.subtitle
+{
+	font:normal;
+	color:white;//Banner Color
+	text-align: right;
+	vertical-align: bottom;
+//	font-weight: bold;
+//	font-family: "Courier New","Century Gothic", "Arial","Times","Times Roman"; 
+
+}
+
+body, td, p, li
+{
+	font:normal;
+
+	color:black;
+
+	font-size: 10pt;
+
+	font-family: "helvetica","Times","Times Roman","Century Gothic";
+}
+table.boxy
+{
+width:100%;
+border-color:#ffffff;
+border-width:2px;
+border-style:solid;
+background-color:#ffffff;
+margin:6px 3px 3px 3px;
+}
+table.logo
+{
+width:100%;
+border-bottom:2px solid gray;
+background-color:#0044bd;
+}
+table.overalltable
+{
+//background:url('TGQLogo.gif') no-repeat;
+//style="background:url('newtgq_files/TGQLogoBottom.gif') no-repeat;"
+}
+
+table.forumheader
+{
+width:890;
+align:center;
+cellpadding:0;
+text-align:right;
+}
+/* The content of the posts (body of text) */
+.postbody { font-size : 12px; line-height: 18px}
+a.postlink:link	{ text-decoration: underline; color : #333333 }
+a.postlink:visited { text-decoration: underline; color : #333333; }
+a.postlink:hover { text-decoration: underline; color : #333333}
+
+a.headerlink:link {
+	text-decoration:none;
+	color:#0044bd;
+}
+a.headerlink:visited {
+	text-decoration:none;
+	color:#0044bd;
+}
+a.headerlink:hover {
+	text-decoration:underline;
+	color:#0044bd;
+
+}
+
+img
+{
+	border-style:none;
+	border-width: 0px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

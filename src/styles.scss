@@ -1,3 +1,32 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$tgq2-primary: mat-palette($mat-indigo);
+$tgq2-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$tgq2-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$tgq2-theme: mat-light-theme($tgq2-primary, $tgq2-accent, $tgq2-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($tgq2-theme);
+
+
 body
 {
 //http://www.easyrgb.com/
@@ -39,155 +68,7 @@ body
 	scrollbar-shadow-color: #5db4df;
 	scrollbar-track-color: #ffffff;
 }
-h1
-{
-	font:normal;
-	color:0044bd;
-	text-align: left;
-	font-weight: bold;
-	font-size: 12pt;
-	text-decoration:none;
-}
 
-a:link
-{
-	text-decoration: underline;
-	border-style:none;
-	border-width: 0px;
-	color: #000;
-}
-
-a:visited
-{
-	text-decoration: underline;
-	border-style:none;
-	border-width: 0px;
-	color: #000;
-}
-
-a:active
-{
-	text-decoration: underline;
-	border-style:none;
-	border-width: 0px;
-	color: #0044bd;
-}
-a:hover
-{
-	text-decoration: underline;
-	border-style:none;
-	border-width: 0px;
-	color: 0044bd;
-}
-
-font.title, p.title, a.title
-{
-	font:normal;
-
-	color:white;//Banner Color
-	color:#0044bd;
-	text-align: right;
-	vertical-align: bottom;
-	font-weight: bold;
-	font-size: 23px;
-}
-
-font.bar
-{
-	color:#0044bd;
-	font-size: 18pt;
-	font-weight: bold;
-}
-
-a.title:link {
-	color:#0044bd;
-	text-decoration:none;
-}
-a.title:visited {
-	color:#0044bd;
-	text-decoration:none;
-}
-a.title:hover {
-	color:#0044bd;
-	text-decoration:underline;
-}
-a.title:active {
-	color:#0044bd;
-	text-decoration:underline;
-}
-
-
-font.subtitle
-{
-	font:normal;
-	color:white;//Banner Color
-	text-align: right;
-	vertical-align: bottom;
-//	font-weight: bold;
-//	font-family: "Courier New","Century Gothic", "Arial","Times","Times Roman"; 
-
-}
-
-body, td, p, li
-{
-	font:normal;
-
-	color:black;
-
-	font-size: 10pt;
-
-	font-family: "helvetica","Times","Times Roman","Century Gothic";
-}
-table.boxy
-{
-width:100%;
-border-color:#ffffff;
-border-width:2px;
-border-style:solid;
-background-color:#ffffff;
-margin:6px 3px 3px 3px;
-}
-table.logo
-{
-width:100%;
-border-bottom:2px solid gray;
-background-color:#0044bd;
-}
-table.overalltable
-{
-//background:url('TGQLogo.gif') no-repeat;
-//style="background:url('newtgq_files/TGQLogoBottom.gif') no-repeat;"
-}
-
-table.forumheader
-{
-width:890;
-align:center;
-cellpadding:0;
-text-align:right;
-}
-/* The content of the posts (body of text) */
-.postbody { font-size : 12px; line-height: 18px}
-a.postlink:link	{ text-decoration: underline; color : #333333 }
-a.postlink:visited { text-decoration: underline; color : #333333; }
-a.postlink:hover { text-decoration: underline; color : #333333}
-
-a.headerlink:link {
-	text-decoration:none;
-	color:#0044bd;
-}
-a.headerlink:visited {
-	text-decoration:none;
-	color:#0044bd;
-}
-a.headerlink:hover {
-	text-decoration:underline;
-	color:#0044bd;
-
-}
-
-img
-{
-	border-style:none;
-	border-width: 0px;
+.mat-card-header-text {
+    margin: 0 !important;
 }

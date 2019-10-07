@@ -1,3 +1,5 @@
+
+
 <table class="boxy">
     <tbody>
         <tr>
@@ -23,7 +25,7 @@
                     <span *ngIf='!issue.downloadLink' class="headerlink">
                         {{issue.headerText}}</span></h1>
 
-                <a [href]="issue.downloadLink"><img [src]="issue.coverImage" align="right"></a>
+                <a [href]="issue.downloadLink"><img [src]="issue.coverImageThumb" align="right"></a>
                 <span [innerHTML]="issue.description"></span>
                 <br>
                 <br>

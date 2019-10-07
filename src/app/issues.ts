@@ -1,8 +1,10 @@
 export const issues = [
     {
+        title: 'Issue #8',
         headerText: 'HOLD IT!! Issue #8 Now Available!',
         downloadLink: 'assets/issues/TGQIssue8.zip',
-        coverImage: 'assets/images/Issue8frontSM.png',
+        coverImage: 'assets/images/TGQ8Cover.png',
+        coverImageThumb: 'assets/images/Issue8frontSM.png',
         description: "Without further delay, Issue #8 of our fine magazine is finally available for download as a full-length PDF preview. Check it out by clicking <a href=\"issues/TGQIssue8.zip\" target=\_blank\" class=\"postlink\"><span style=\"font-weight: bold\">here</span></a>, and if you like what you read please <a href=\"http://shop.gamersquarter.com\" target=\"_blank\" class=\"postlink\"><span style=\"font-weight: bold\">visit our shop to purchase a hard copy</span></a>. Hard copies are more book than magazine, and at $5 plus shipping each issue is an incredible value. Within the 77 pages of Issue #8 you'll find 18 articles covering Capcom games, special Tokyo Game Show coverage, The Secret of Mana, Metroid II, Wii Line antics, Rule of Rose, a guest appearance from the writer of Game Time With Mister Raroo, and much, much more! You'll also find tons of original artwork, including a CAPcomic and a very blue cover by Toronto artist Benjamin Rivers! Regardless of what you think of the magazine we'd love to hear about it, so please click the comments button below and let us know. We don't always say it, but thank you everyone for your support.",
         articles: [{
             'title': 'On the Grand Master\'s Stage',
@@ -45,7 +47,7 @@ export const issues = [
                 }
             ]
         }, {
-            'title': 'Secrets and Save ',
+            'title': 'Secrets and Save Points',
             'author': 'Heather Campbell',
             'games': [
                 {
@@ -90,7 +92,8 @@ export const issues = [
             'type': 'Comic'
         }, {
             'title': 'Christmas Morning at the Leukemia Ward',
-            'author': 'Brendan Lee'
+            'author': 'Brendan Lee',
+            'topic': 'Tokyo Game Show 2006'
         }, {
             'title': 'A Retrospective Survival Guide to Tokyo Game Show',
             'author': 'Rudie Overton',
@@ -139,8 +142,9 @@ export const issues = [
                 }
             ]
         }, {
-            'title': 'Untold Tales of the Arcade: Killing Dragons Has Never Been So Much Fun!',
-            'author': 'Francesco-Alessio Ursini'
+            'title': 'Untold Tales of the Arcade',
+            'author': 'Francesco-Alessio Ursini',
+            'topic': 'Killing Dragons Has Never Been So Much Fun!'
         }, {
             'title': 'Why Game?',
             'topic': 'Reason #7: Why Not!?',
@@ -149,9 +153,11 @@ export const issues = [
         ]
     },
     {
+        title: 'Issue #7',
         headerText: 'Issue #7 Now Available',
         downloadLink: 'assets/issues/TheGamersQuarter7.zip',
-        coverImage: 'assets/images/Issue7frontSM.jpg',
+        coverImage: 'assets/images/TGQ7Cover.png',
+        coverImageThumb: 'assets/images/Issue7frontSM.jpg',
         description: 'Issue #7 of our fine magazine is now available for download as a full-length PDF preview. Check it out by clicking <a href="assets/issues/TheGamersQuarter7.zip" target="_blank" class="postlink"><span style="font-weight: bold">here</span></a>, and if you like what you read please <a href="http://shop.gamersquarter.com" target="_blank" class="postlink"><span style="font-weight: bold">visit our shop to purchase a hard copy</span></a>. Hard copies are closer to a book than a magazine, and at $5 plus shipping each issue is an incredible value. Within the 107 pages of Issue #7 you\'ll find 22 articles covering various Mario games, the Final Fantasy series, Dead Rising, the Japan-only Bit Generations series of GBA games,a series of Haiku about Dragon Warrior VII, and much, much more! You\'ll also find gobs of original artwork, including a comic that takes a unique look at the modern videogame store and an absolutely insane cover by Indianapolis artist Max Martin! Regardless of what you think of the magazine we\'d love to hear about it, so please click the comments button below and let us know. We don\'t always say it, but thank you everyone for your support.',
         articles: [{
             'title': 'Breaking the Law of Miyamoto',
@@ -301,21 +307,27 @@ export const issues = [
         }]
     },
     {
+        title: 'Podcast #2',
         headerText: 'Podcast #2 Half Life 2 - Now Available',
         downloadLink: 'http://www.archive.org/download/TheGamersQuarterPodcast2/TGQ_Podcast2-HALFLIFE2.mp3',
-        coverImage: 'assets/images/TGQPodcast2CoverSM.jpg',
+        coverImage: 'assets/images/TGQPodcast2Cover.jpg',
+        coverImageThumb: 'assets/images/TGQPodcast2CoverSM.jpg',
         description: 'It\'s been a month since our first podcast, so here goes number 2. In this episode, Matthew Williamson, Benjamin Rivers, Andrew Toups, J.R. Freeman, and M. O\'Connor discuss the seminal PC title <span _ngcontent-kik-c1="" style="font-style: italic">Half Life 2</span> and its unique qualities and shortcomings. <a _ngcontent-kik-c1="" class="postlink" href="http://www.archive.org/download/TheGamersQuarterPodcast2/TGQ_Podcast2-HALFLIFE2.mp3" target="_blank"><span _ngcontent-kik-c1="" style="font-weight: bold">The podcast can be downloaded here</span></a>, and the cover <a _ngcontent-kik-c1="" class="postlink" href="assets/images/TGQPodcast2Cover.jpg" target="_blank">here</a>. Stay tuned after the podcast to learn how you can win a copy of <span _ngcontent-kik-c1="" style="font-style: italic">Blade Dancer: Lineage of Light</span> for the PSP! <br _ngcontent-kik-c1=""><br _ngcontent-kik-c1=""><img _ngcontent-kik-c1="" align="left" src="assets/images/BladeDancerLogo.gif">Our staff is currently busy finishing up their articles for our next issue which is due in mid-September. Please remember to check back then, or just sign up for our mailing list in that little "mailing list" section to the left. We should mention that there are a few technical issues with this podcast. We thought about redoing the whole thing, but didn\'t feel that the issues were bad enough to try to artificially recreate the conversations that went on. O\' Connor has done a great job of cleaning things up, but if you still want to complain or have any other, more positive feedback, please click <a _ngcontent-kik-c1="" class="postlink" href="http://www.gamersquarter.com/forums/viewtopic.php?t=1150" target="_blank">Comments</a> and let us know what you think.'
     },
     {
+        title: 'Podcast #1',
         headerText: 'Podcast #1 Noctis - Now Available',
         downloadLink: 'http://www.archive.org/download/TheGamersQuarterPodcasts/TGQ_Podcast-Noctis070406.mp3',
-        coverImage: 'assets/images/TGQPodcast1CoverSM.jpg',
+        coverImage: 'assets/images/TGQPodcast1Cover.jpg',
+        coverImageThumb: 'assets/images/TGQPodcast1CoverSM.jpg',
         description: 'Welcome to the first TGQ Podcast, where The Gamer\'s Quarter staff discuss an interesting or significant game on months between magazine releases. In our first show, M. O\'Connor, J. R. Freeman, Ancil Anthropy, and Brandon Richard discuss the freeware title <span style="font-style: italic">Noctis</span>, a space exploration simulator that\'s tremendously vast and surprisingly lonely. <a href="http://www.archive.org/download/TheGamersQuarterPodcasts/TGQ_Podcast-Noctis070406.mp3" target="_blank" class="postlink"><span style="font-weight: bold">Download the podcast right here</span></a>, and the cover <a href="images/TGQPodcast1Cover.jpg" target="_blank" class="postlink">here</a>. When you\'re done listening you can download the "game" from <a href="http://www.anywherebb.com/postline/posts.php?f=15&amp;t=409" target="_blank" class="postlink">its website</a>, you might also want to check out <a href="http://dessgeega.com/noctis/" target="_blank" class="postlink">our Omake photo gallery</a>'
     },
     {
+        title: 'Issue #6',
         headerText: 'Issue #6 Now Available',
         downloadLink: 'assets/issues/GamersQuarter6.zip',
-        coverImage: 'assets/images/Issue6frontSM.jpg',
+        coverImage: 'assets/images/TGQ6Cover.png',
+        coverImageThumb: 'assets/images/Issue6frontSM.jpg',
         description: 'The full-length preview PDF of <span style="font-weight: bold">The Gamer\'s Quarter #6</span> is now available for download <a href="assets/issues/GamersQuarter6.zip"><span style="font-weight: bold">here</span></a>. If you like what you read, we encourage you to <a href="http://shop.gamersquarter.com/" target="_blank" class="postlink"><span style="font-weight: bold">pre-order a physical copy from our store</span></a>. When books are ready for shipping in mid-July you\'ll recieve a high-quality book-format edition of this 121 page issue with a full-color cover by staff artist Mariel Cartwright. Every pre-ordered issue will include one of five free bookmarks (collect them all)! If you\'re not here because of the e-mail you recieved from being part of our mailing list, well, you should be. So please enter your e-mail address into the mailing list section on the left side of this page to sign up for our infrequent updates. We\'ve got something special coming up some time within the next month that you won\'t want to miss out on and the best way to make sure you\'re kept in the know is to be a part of our mailing. This issue shows off our intriguing new design and contains an interesting look at cell-phone gaming as well as our E3 coverage. If, for some reason, you\'re still reading this and haven\'t clicked on the link to download the preview yet, you might as well check out the article list below:',
         articles: [
             {
@@ -432,9 +444,11 @@ export const issues = [
         ]
     },
     {
+        title: 'Issue #5',
         headerText: 'Issue #5 Now Available',
         downloadLink: 'assets/issues/GamersQuarter5.zip',
-        coverImage: 'assets/images/Issue5frontSM.jpg',
+        coverImage: 'assets/images/TGQ5Cover.png',
+        coverImageThumb: 'assets/images/Issue5frontSM.jpg',
         description: '<span style="font-weight: bold">The Gamer\'s Quarter #5</span> is now available for download <a href="assets/issues/GamersQuarter5.zip"><span style="font-weight: bold">here</span></a>. If this enormous 114 page monster of goodness, with a gorgeous cover from <a href="http://www.alessonislearned.com/" target="_blank" class="postlink">Dave Hellman</a>, has too many pages to read online you can, of course, <span style="color: red">order a physical copy of Issue #5, which is shiping NOW, by clicking right <a href="http://shop.gamersquarter.com/" target="_blank" class="postlink">here</a></span>. Every pre-ordered issue will include a free sticker (sticker type undecided at this time)! I know you want to know when new issues are released, so please enter your e-mail address into the mailing list section on the left to sign up for infrequent updates. This issue has more articles than ever, covering diverse subjects as <span style="font-style: italic">Contra</span>, <span style="font-style: italic">Contra</span>, and <span style="font-style: italic">Contra</span>!  But don\'t take my word for it, check out this article list:',
         articles: [
             {
@@ -620,9 +634,11 @@ export const issues = [
         ]
     },
     {
+        title: 'Issue #4',
         headerText: 'Issue #4 Now Available',
         downloadLink: 'assets/issues/TheGamersQuarter4.zip',
-        coverImage: 'assets/images/Issue4frontSM.jpg',
+        coverImage: 'assets/images/TGQ4Cover.png',
+        coverImageThumb: 'assets/images/Issue4frontSM.jpg',
         description: '<span style="font-weight: bold">The Gamer\'s Quarter #4</span> is now available for free download <a href="assets/issues/TheGamersQuarter4.zip"><span style="font-weight: bold">here</span></a>. If long downloads and eye strain ain\'t your thang, <span style="color: red">you can now pre-order a physical copy of Issue #4, which is scheduled for release in mid-January by clicking right <a href="http://shop.gamersquarter.com/" target="_blank" class="postlink">here</a></span>. Pre-order now and recieve a free sticker! If you haven\'t already done so, don\'t forget to enter your e-mail address into the mailing list section on the left to receive updates on when new issues of The Gamer\'s Quarter are released in either print or online versions. We\'re learning to be more concise with this issue without losing any of Trademark TGQ flavor.  The fourth iteration of our fine publication features the following totally serious gaming journalism:',
         articles: [
             {
@@ -770,9 +786,11 @@ export const issues = [
         ]
     },
     {
+        title: 'Issue #3',
         headerText: 'Issue #3 Now Available',
         downloadLink: 'assets/issues/TheGamersQuarter3.zip',
-        coverImage: 'assets/images/Issue3frontSM.jpg',
+        coverImage: 'assets/images/TGQ3Cover.png',
+        coverImageThumb: 'assets/images/Issue3frontSM.jpg',
         description: '<span style="font-weight: bold">The Gamer\'s Quarter #3</span> is now available for download <a href="assets/issues/TheGamersQuarter3.zip"><span style="font-weight: bold">here</span></a>. As always, enter your e-mail address into the mailing list section on the left to receive updates on when you can purchase a physical copy of The Gamer\'s Quarter. Yeah, it didn\'t happen before, but as they say, "third time\'s the charm." With 26 articles spread over 128 pages you\'ll have a lot to do while you wait!  We keep getting bigger, and I think you\'ll find that we keep getting better too.  Just check out this article list:',
         articles: [
             {
@@ -960,9 +978,11 @@ export const issues = [
         ]
     },
     {
+        title: 'Issue #2',
         headerText: 'Issue #2 Now Available',
         downloadLink: 'assets/issues/TheGamersQuarter2.zip',
-        coverImage: 'assets/images/Issue2frontSM.jpg',
+        coverImage: 'assets/images/TGQ2Cover.png',
+        coverImageThumb: 'assets/images/Issue2frontSM.jpg',
         description: '<span style="font-weight: bold">The Gamer\'s Quarter #2</span> is now available for download <a href="assets/issues/TheGamersQuarter2.zip"><span style="font-weight: bold">here</span></a>. Please enter your e-mail address into the mailing list section on the left to receive updates on when you can purchase a physical copy of The Gamer\'s Quarter Issue 2.  This issue features 112 pages of content spread over 18 articles.  It\'s our biggest and best issue ever!  Just check out this article list:',
         articles: [
             {
@@ -1059,9 +1079,11 @@ export const issues = [
         ]
     },
     {
+        title: 'Issue #1',
         headerText: 'Issue #1 Now Available',
         downloadLink: 'assets/issues/GamersQuarter1.zip',
-        coverImage: 'assets/images/issue1frontsm.jpg',
+        coverImage: 'assets/images/TGQ1Cover.png',
+        coverImageThumb: 'assets/images/issue1frontsm.jpg',
         description: '<span style="font-weight: bold">The Gamer\'s Quarter #1</span> is now available for download <a href="assets/issues/GamersQuarter1.zip"><span style="font-weight: bold">here</span></a>. We encourage you to sign up for the mailing list to keep informed of future releases and print availability.  The first 92 page issue features the following articles:',
         articles: [
             {
@@ -1170,8 +1192,10 @@ export const issues = [
         ]
     },
     {
+        title: 'Issue #0',
         headerText: 'Issue #0 No Longer Available',
-        coverImage: 'assets/images/Issue0frontSM.jpg',
+        coverImage: 'assets/images/TGQ0Cover.png',
+        coverImageThumb: 'assets/images/Issue0frontSM.jpg',
         description: 'Preview issue is no longer available, please download issue #1.<br><br>-Regards<br>ShaperMC'
     }
 ];

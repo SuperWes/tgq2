@@ -1,0 +1,38 @@
+<mat-card *ngFor="let issue of issues; index as issueId" class="issue-card">
+    <mat-card-header>
+        <a *ngIf='issue.downloadLink' class="headerlink" [href]="issue.downloadLink">
+            <mat-card-title>{{issue.headerText}}</mat-card-title>
+        </a>
+        <mat-card-title *ngIf='!issue.downloadLink' >{{issue.headerText}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <div fxLayout="row" fxLayout.xs="column">
+            <div fxFlex="50%" class='issue-left'>
+                <img *ngIf='issue.coverImage' src='{{issue.coverImage}}' class='issue-image' />
+            </div>
+            <div *ngIf='issue.articles' fxFlex="50%" class='issue-articles'>
+                <div *ngFor='let article of issue.articles' class='issue-article'>
+                    <span class='article-title'>{{article.title}}</span> - <span
+                        class='article-author'>{{article.author}}</span>
+                    <br>
+                    <ng-container *ngIf='article.games'>
+                        <ng-container *ngFor='let game of article.games; last as isLast'>
+                            {{game.name}}<ng-container *ngIf='game.system'> - </ng-container>{{game.system}}
+                            <ng-container *ngIf='!isLast'>;</ng-container>
+                        </ng-container>
+                    </ng-container>
+                    <ng-container *ngIf='article.topic'>{{article.topic}}</ng-container>
+                    <ng-container *ngIf='article.type'> - {{article.type}}</ng-container>
+                    <br>
+                </div>
+            </div>
+            <div *ngIf='!issue.articles' fxFlex="50%" [innerHTML]="issue.description" class='issue-description'></div>
+        </div>
+    </mat-card-content>
+
+    <mat-card-actions>
+        <a *ngIf='issue.downloadLink' class="headerlink" [href]="issue.downloadLink">
+            <button mat-button>Download {{issue.title}}</button>
+        </a>
+    </mat-card-actions>
+</mat-card>
