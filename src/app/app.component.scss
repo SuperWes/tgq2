@@ -2,7 +2,7 @@
   margin: 10px auto;
 }
 
-.tgq-title-logo {
+.tgq-title-link {
   order: 2;
   margin: 10px auto;
   @media (min-width: 960px) {
@@ -11,12 +11,20 @@
   }
 }
 
+.tgq-title-logo {
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+
 .banner {
-  width: 500px;
-  height: 100px;
   margin: 10px auto;
   @media (min-width: 960px) {
     margin: 10px 10px auto;
     margin-left: auto;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+    margin: 0px auto;
   }
 }
