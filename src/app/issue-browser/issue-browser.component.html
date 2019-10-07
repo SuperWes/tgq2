@@ -1,10 +1,8 @@
 <mat-card *ngFor="let issue of issues; index as issueId" class="issue-card">
-    <mat-card-header>
-        <a *ngIf='issue.downloadLink' class="headerlink" [href]="issue.downloadLink">
-            <mat-card-title>{{issue.headerText}}</mat-card-title>
-        </a>
-        <mat-card-title *ngIf='!issue.downloadLink' >{{issue.headerText}}</mat-card-title>
-    </mat-card-header>
+    <a *ngIf='issue.downloadLink' class="headerlink" [href]="issue.downloadLink">
+        <mat-card-title>{{issue.headerText}}</mat-card-title>
+    </a>
+    <mat-card-title *ngIf='!issue.downloadLink'>{{issue.headerText}}</mat-card-title>
     <mat-card-content>
         <div fxLayout="row" fxLayout.xs="column">
             <div fxFlex="50%" class='issue-left'>
@@ -35,4 +33,18 @@
             <button mat-button>Download {{issue.title}}</button>
         </a>
     </mat-card-actions>
+</mat-card>
+
+<mat-card class="issue-card">
+    <mat-card-title>
+        GAMER'S QUARTER FORUMS AREN'T DEAD
+    </mat-card-title>
+
+    <mat-card-content>
+        <p>They just currently live <a href='http://mirrors.glorioustrainwrecks.com/gamersquarter/'>here</a> and nobody's posted on them since 2011.</p>
+
+        <p>Signups are turned off because the spam problem is literally what killed the forums. So I hope you remember your
+        password!</p>
+
+        <p>-- Much love, ApM</p></mat-card-content>
 </mat-card>
