@@ -3,6 +3,7 @@
         <mat-card-title>{{issue.headerText}}</mat-card-title>
     </a>
     <mat-card-title *ngIf='!issue.downloadLink'>{{issue.headerText}}</mat-card-title>
+    <mat-card-subtitle>{{issue.releaseDate}}</mat-card-subtitle>
     <mat-card-content>
         <div fxLayout="row" fxLayout.xs="column">
             <div fxFlex="50%" class='issue-left'>

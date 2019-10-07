@@ -1,6 +1,7 @@
 export const issues = [
     {
         title: 'Issue #8',
+        releaseDate: '2/19/2007',
         headerText: 'HOLD IT!! Issue #8 Now Available!',
         downloadLink: 'assets/issues/TGQIssue8.zip',
         coverImage: 'assets/images/TGQ8Cover.png',
@@ -154,6 +155,7 @@ export const issues = [
     },
     {
         title: 'Issue #7',
+        releaseDate: '9/24/2006',
         headerText: 'Issue #7 Now Available',
         downloadLink: 'assets/issues/TheGamersQuarter7.zip',
         coverImage: 'assets/images/TGQ7Cover.png',
@@ -308,6 +310,7 @@ export const issues = [
     },
     {
         title: 'Podcast #2',
+        releaseDate: '8/15/2006',
         headerText: 'Podcast #2 Half Life 2 - Now Available',
         downloadLink: 'http://www.archive.org/download/TheGamersQuarterPodcast2/TGQ_Podcast2-HALFLIFE2.mp3',
         coverImage: 'assets/images/TGQPodcast2Cover.jpg',
@@ -316,6 +319,7 @@ export const issues = [
     },
     {
         title: 'Podcast #1',
+        releaseDate: '7/16/2006',
         headerText: 'Podcast #1 Noctis - Now Available',
         downloadLink: 'http://www.archive.org/download/TheGamersQuarterPodcasts/TGQ_Podcast-Noctis070406.mp3',
         coverImage: 'assets/images/TGQPodcast1Cover.jpg',
@@ -324,6 +328,7 @@ export const issues = [
     },
     {
         title: 'Issue #6',
+        releaseDate: '6/19/2006',
         headerText: 'Issue #6 Now Available',
         downloadLink: 'assets/issues/GamersQuarter6.zip',
         coverImage: 'assets/images/TGQ6Cover.png',
@@ -445,6 +450,7 @@ export const issues = [
     },
     {
         title: 'Issue #5',
+        releaseDate: '3/21/2006',
         headerText: 'Issue #5 Now Available',
         downloadLink: 'assets/issues/GamersQuarter5.zip',
         coverImage: 'assets/images/TGQ5Cover.png',
@@ -635,6 +641,7 @@ export const issues = [
     },
     {
         title: 'Issue #4',
+        releaseDate: '12/16/2005',
         headerText: 'Issue #4 Now Available',
         downloadLink: 'assets/issues/TheGamersQuarter4.zip',
         coverImage: 'assets/images/TGQ4Cover.png',
@@ -787,6 +794,7 @@ export const issues = [
     },
     {
         title: 'Issue #3',
+        releaseDate: '9/15/2005',
         headerText: 'Issue #3 Now Available',
         downloadLink: 'assets/issues/TheGamersQuarter3.zip',
         coverImage: 'assets/images/TGQ3Cover.png',
@@ -979,6 +987,7 @@ export const issues = [
     },
     {
         title: 'Issue #2',
+        releaseDate: '6/15/2005',
         headerText: 'Issue #2 Now Available',
         downloadLink: 'assets/issues/TheGamersQuarter2.zip',
         coverImage: 'assets/images/TGQ2Cover.png',
@@ -1080,6 +1089,7 @@ export const issues = [
     },
     {
         title: 'Issue #1',
+        releaseDate: '3/15/2005',
         headerText: 'Issue #1 Now Available',
         downloadLink: 'assets/issues/GamersQuarter1.zip',
         coverImage: 'assets/images/TGQ1Cover.png',
@@ -1193,6 +1203,7 @@ export const issues = [
     },
     {
         title: 'Issue #0',
+        releaseDate: '3/1/2005',
         headerText: 'Issue #0 No Longer Available',
         coverImage: 'assets/images/TGQ0Cover.png',
         coverImageThumb: 'assets/images/Issue0frontSM.jpg',
